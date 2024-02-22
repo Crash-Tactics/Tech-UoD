@@ -28,6 +28,11 @@ body {
     gap: 18px;
 }
 
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 ul {
     list-style: none;
 }
@@ -77,6 +82,8 @@ ul {
     height: 150px;
     flex: 1;
     text-align: center;
+    padding-bottom: 48px;
+    gap: 48px;
 }
 
 .hero-image {
@@ -203,7 +210,19 @@ ul {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: column;
     background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.footer-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 18px;
+}
+
+.footer-links a {
+    text-decoration: none;
     color: #E5E7EB;
 }
