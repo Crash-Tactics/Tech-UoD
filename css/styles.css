@@ -19,6 +19,8 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+    flex: 0.596
+    ;
 }
 
 .header-links {
