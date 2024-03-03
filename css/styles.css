@@ -158,6 +158,39 @@ ul {
     overflow: hidden;
 }
 
+.subjects-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 32px;
+}
+
+.subjects-left-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    border: #1f2937;
+    border-style: dashed;
+    width: 45%;
+    gap: 64px;
+    padding: 100px;
+}
+
+.subjects-left-panel div {
+    border: #3882F6;
+    border-style: dashed;
+
+}
+.subjects-left-panel li {
+    list-style: disc;
+}
+
+.subjects-right-panel {
+    flex: 1;
+    border: #1f2937;
+    border-style: dashed;
+    padding: 100px;
+}
 
 .quote-container {
     display: flex;
