@@ -4,105 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <title>Tech@UoD</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Home page</title>
 </head>
 
 <body>
-    <div class="header">
-        <a style="text-decoration:none" href="index.html" class="header-logo" >Tech@UoD</a>
-        <ul class="header-links">
-            <li><a href="./pages/cyber.html" >Cyber Security</a></li>
-            <li><a href="./pages/games.html" >Games Programming</a></li>
-            <li ><a href="./pages/compsci.html" >Computer Science</a></li> 
-        </ul>
+
+    <!-- specific stripe at quote content -->
+    <div class="body_style_main">
+        
+    <!-- coloured header section with nav bar -->
+    <div class="initial_colour_block">
+        <div class="navigation_bar">
+            <ol>
+                <p class="logo_text">Tech@UoD</p>
+                <li><a href="">About us</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ol>
+        </div>
+
+        <!-- main welcoming paragraph next to cover -->
+        <div class="container">
+            <div class="text">
+                <h2>Technology at the University of Derby</h2>
+                <p>The University of Derby provides students with unique and exciting experiences and the opportunity to
+                    develop their technological understanding.</p>
+            </div>
+            <img class="image" src="resources/cover.png" alt="photo of students">
+        </div>
     </div>
 
-    <div class="content">
-        <div class="hero">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1><strong>Technology at<br>University of Derby</strong></h1>
-                    <p>The University of Derby provides students with unique and exciting
-                        experiences and the oportunity to develop their technological understanding.
-                    </p>
-                </div>
-                <div class="hero-image-container">
-                    <img class="hero-image" src="./content/laptopcode.jpg" alt="Oooh code">
-                </div>
+    <!-- course list heading -->
+    <div class="heading_section">
+        <h2>Courses</h2>
+        <p>This website aims to assist upcoming students in deciding which courses are most integral when it comes to
+            advancing their career in the technology industry.</p>
+    </div>
+
+    <div class="grid_container">
+
+        <!-- first course in list -->
+        <div class="course_section">
+            <div class="text">
+                <h2>Cyber Security</h2>
+                <p>Cyber Security is the application of protective measures to ensure systems, networks, devices and
+                    data are protected from cyber-attacks.</p>
+                <a class="button" href="cyber_sec.html">Explore</a>
             </div>
+            <img class="image" src="resources/security.svg" alt="image of securing files">
         </div>
 
-        <!-- <div class="cards-container">
-            <h2>Computer Science and Specialties at University of Derby</h2>
-            <div class="cards">
-                <div class="card-content">
-                <div class="card-img"></div>
-                <p>Games Programming</p>
+        <!-- second course in list -->
+        <div class="course_section">
+            <div class="text">
+                <h2>Computer Science</h2>
+                <p>Computer Science focuses on problem solving and technical skills and is a fundamental aspect in
+                    almost all careers in the technology field.</p>
+                <a class="button" href="comp_sci.html">Explore</a>
             </div>
-            <div class="cards">
-                <div class="card-content">
-                <div class="card-img"></div>
-                <p>Cyber Security</p>
-            </div>
-        </div> -->
-
-
-        <div class="quote-container">
-            <p class="quote">"Graphics 1 sucked"</p>
-            <p class="quote-origin"> - Every CS student at UoD</p>
-            
+            <img class="image" src="resources/data_processing.svg" alt="image of data processing">
         </div>
 
-
-        <div class="cards-container">
-            <h2>Meet the Students</h2>
-            <p>Click on a team member to read about our experiences studying at the University of Derby</p>
-            <div class="cards">
-                <div class="card-content">
-                    <div class="card-img"></div>
-                    <p>Eden</p>
-                </div>
-                <div class="card-content">
-                    <div class="card-img"></div>
-                    <p>Alex</p>
-                </div>
-                <div class="card-content">
-                    <div class="card-img"></div>
-                    <p>George</p>
-                </div>
-                <div class="card-content">
-                    <div class="card-img"></div>
-                    <p>Declan</p>
-                </div>
+        <!-- third course in list -->
+        <div class="course_section">
+            <div class="text">
+                <h2>Games Development</h2>
+                <p>Game development refers to the creation of video games, involving areas such as programming, design,
+                    art, audio and writing.</p>
+                <a class="button" href="games_des.html">Explore</a>
             </div>
+            <img src="resources/game_console.svg" alt="image of game controller">
         </div>
 
-        
+    </div>
 
-        <!-- <div class="call-to-action-container">
-            <div class="cta">
-                <div class="cta-text">
-                    <p class="cta-header">Call to action! It's time!</p>
-                    <p>Sign up!</p>
-                </div>
-                <div class="cta-button">
-                    <p>Sign up</p>
-                </div>
-            </div>
-        </div> -->
+    <!-- quote section -->
+    <div class="heading_section" id="quote_grid">
+        <h2>What the students think</h2>
+    </div>
+    <div class="quote_grid">
+        <div class="quote" id="top">
+            <p>“The University has offered a deep understanding, where I have gained sufficient experience of new technical skills giving me the chance to learn from those that have years of involvement within the field.”</p>
+            <p><b>Cole Green</b></p>
+        </div>
+
+        <div class="quote" id="mid_left">
+            <p>“Cyber security at derby has allowed me to further my skills due to the excellent standard of teaching along with the tools at our disposal, such as the computer laboratories which allow students to explore subjects including ethical hacking in a controlled safe environment.”</p>
+            <p><b>Declan Hutchinson</b></p>
+            <p><b>BSc (Hons) Cyber Security</b></p>
+        </div>
+
+        <div class="quote" id="mid_right">
+            <p>“Being able to experience how my favourite games were made and how i can make my creative visions become a reality has been really exciting. Derby’s intuitive and well-constructed course has also allowed me to further my career with their optional placement year.”</p>
+            <p><b>Greg Smith</b></p>
+            <p><b>BSc (Hons) Computer Games Programming</b></p>
+        </div>
+
+        <div class="quote" id="bottom">
+            <p>“My course has allowed me to build upon my knowledge from previous years using programming languages such as python and C++, and broadening my knowledge to work in a practical sense, applying programming to game engines and other software applications.”</p>
+            <p><b>Eddie Abbew</b></p>
+            <p><b>BSc (Hons) Computer Science</b></p>
+        </div>
     </div>
 
     <div class="footer">
-        <p>Visit the Univerty of Derby Website for more information!</p>
-        <div class="footer-links">
-            <ul>
-                <li><a href="https://www.derby.ac.uk/">University of Derby Homepage</a></li>
-                <li><a href="https://www.derby.ac.uk/undergraduate/computing-courses/">Computing @ UoD</a></li>
-            </ul>
-        </div>
+        <h2>&#169; 2024</h2>
+        <a style="text-decoration:none" href="https://www.derby.ac.uk/"><h2>More Info.</h2></a>
     </div>
+</div>
 </body>
 
 </html>
